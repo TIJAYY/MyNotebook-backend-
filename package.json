@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd .. && cd src && react-scripts start"
-  
+    "start": "icacls ./index.js /grant:r \"mysel:RX\" && nodemon ./index.js"
+
+
   },
   "author": "",
   "license": "ISC",
